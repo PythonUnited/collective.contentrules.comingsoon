@@ -5,7 +5,7 @@ from zope import schema
 from plone.autoform.directives import widget
 
 from collective.contentrules.comingsoon import ComingSoonMessageFactory as _
-from collwective.z3cform.datagridfield import DataGridFieldFactory, DictRow
+from collective.z3cform.datagridfield import DataGridFieldFactory, DictRow
 
 
 class IComingSoon(IObjectEvent):
