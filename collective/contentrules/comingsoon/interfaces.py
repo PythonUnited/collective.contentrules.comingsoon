@@ -1,11 +1,11 @@
-from zope.component.interfaces import IObjectEvent
+from zope.interface.interfaces import IObjectEvent
 from zope.interface import Interface
 from zope import schema
 
 from plone.autoform.directives import widget
 
 from collective.contentrules.comingsoon import ComingSoonMessageFactory as _
-from collective.z3cform.datagridfield import DataGridFieldFactory, DictRow
+from collwective.z3cform.datagridfield import DataGridFieldFactory, DictRow
 
 
 class IComingSoon(IObjectEvent):
@@ -52,5 +52,5 @@ class IComingSoonSettings(Interface):
                                "For example, a delay of 1 signify "
                                "the event will be handled the day before "
                                "the event content start date")
-        )
+    )
     widget(delays=DataGridFieldFactory)

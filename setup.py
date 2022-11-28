@@ -42,7 +42,6 @@ setup(name='collective.contentrules.comingsoon',
           # -*- Extra requirements: -*-
           "collective.z3cform.datagridfield",
           "ecreall.helpers.upgrade",
-          "five.grok",
           "plone.api",
           'plone.app.contentrules',
           'plone.app.registry',
